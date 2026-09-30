@@ -3,12 +3,14 @@ services:
     name: national-healthgrid
     env: node
     plan: free
-    buildCommand: npm install && npm run build
+    buildCommand: npm install --legacy-peer-deps && npm run build
     startCommand: npm start
     envVars:
       - key: NODE_ENV
         value: production
       - key: PORT
         value: 10000
+      - key: NODE_VERSION
+        value: 20.18.0
       - key: GEMINI_API_KEY
         sync: false
