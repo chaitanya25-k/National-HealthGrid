@@ -2,6 +2,8 @@
 
 > **A federated AI platform for national-scale health resource and supply chain management — providing real-time visibility into medicine stocks, bed availability, and medical personnel attendance across India's entire Primary Health Centre (PHC) and District Hospital network.**
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/chaitanya25-k/National-HealthGrid)
+
 ---
 
 ## 1. Problem Statement & Executive Overview
@@ -94,7 +96,25 @@ The interface is built to deliver a clean, distraction-free command center exper
 
 ---
 
-## 4. Local Run & Installation Guide
+## 4. Deploy & Publish Live (Cloud Deployment)
+
+You can host and publish this full-stack application online with a live public URL connected to this GitHub repository.
+
+### Option 1: 1-Click Deploy to Render (Recommended)
+1. Click the button below:
+   [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/chaitanya25-k/National-HealthGrid)
+2. Sign in with your GitHub account.
+3. Render reads `render.yaml` automatically, builds both backend and frontend, and provides a free live HTTPS URL (e.g. `https://national-healthgrid.onrender.com`).
+4. (Optional) Add your `GEMINI_API_KEY` under the Environment Variables tab.
+
+### Option 2: Deploy to Railway / Koyeb
+1. Go to [Railway.app](https://railway.app) or [Koyeb.com](https://www.koyeb.com).
+2. Select **"Deploy from GitHub repo"** and choose `chaitanya25-k/National-HealthGrid`.
+3. Set build command to `npm install && npm run build` and start command to `npm start` (or use the included `Dockerfile`).
+
+---
+
+## 5. Local Run & Installation Guide
 
 Run the full-stack platform locally on your computer with a single command. The backend Express API and Vite React frontend run simultaneously on port `3000`.
 
@@ -171,7 +191,7 @@ The build output will be compiled into the `dist` directory and served by the Ex
 
 ---
 
-## 5. Seeded Test Accounts & Demonstration Roles
+## 6. Seeded Test Accounts & Demonstration Roles
 
 The system comes pre-configured with realistic public healthcare accounts. You can sign in using the quick-login demo buttons or enter the credentials below:
 
@@ -186,7 +206,7 @@ The system comes pre-configured with realistic public healthcare accounts. You c
 
 ---
 
-## 6. Keyboard Shortcuts Reference
+## 7. Keyboard Shortcuts Reference
 
 | Shortcut | Action |
 | :--- | :--- |
@@ -201,7 +221,7 @@ The system comes pre-configured with realistic public healthcare accounts. You c
 
 ---
 
-## 7. API Endpoints Reference
+## 8. API Endpoints Reference
 
 All endpoints are hosted locally under `http://localhost:3000`:
 
@@ -222,7 +242,7 @@ All endpoints are hosted locally under `http://localhost:3000`:
 
 ---
 
-## 8. Technology Stack
+## 9. Technology Stack
 
 - **Runtime & Backend**: Node.js, Express.js, TypeScript
 - **Frontend Framework**: React 19, TypeScript
@@ -233,7 +253,7 @@ All endpoints are hosted locally under `http://localhost:3000`:
 
 ---
 
-## 9. Troubleshooting & FAQ
+## 10. Troubleshooting & FAQ
 
 - **Port 3000 already in use**: If port 3000 is occupied by another process, you can set `PORT=3001 npm run dev` or change the port in `.env`.
 - **Reset database to defaults**: Simply delete the `data/healthgrid.json` file and restart the server; it will automatically re-seed with clean default data.
