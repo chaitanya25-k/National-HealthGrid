@@ -1,0 +1,461 @@
+{
+  "facilities": [
+    {
+      "id": 1,
+      "name": "Aundh District Hospital",
+      "tier": "DH",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "address": "Aundh Camp Road, Pune, Maharashtra 411027",
+      "beds_total": 300,
+      "beds_available": 64,
+      "icu_available": 24,
+      "oxygen_cylinders": 160,
+      "created_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 2,
+      "name": "Junnar Rural Primary Health Centre (PHC)",
+      "tier": "PHC",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "address": "Taluka Junnar, Rural Pune, Maharashtra 410502",
+      "beds_total": 12,
+      "beds_available": 3,
+      "icu_available": 0,
+      "oxygen_cylinders": 8,
+      "created_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 3,
+      "name": "Baramati Sub-District Hospital",
+      "tier": "SDH",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "address": "Bhigwan Road, Baramati, Maharashtra 413102",
+      "beds_total": 120,
+      "beds_available": 28,
+      "icu_available": 6,
+      "oxygen_cylinders": 65,
+      "created_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 4,
+      "name": "Nashik Civil District Hospital",
+      "tier": "DH",
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "address": "Trimbak Road, Nashik, Maharashtra 422002",
+      "beds_total": 260,
+      "beds_available": 34,
+      "icu_available": 16,
+      "oxygen_cylinders": 130,
+      "created_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 5,
+      "name": "Trimbakeshwar Community Health Centre (CHC)",
+      "tier": "CHC",
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "address": "Main Bazaar Road, Trimbakeshwar, Maharashtra 422212",
+      "beds_total": 30,
+      "beds_available": 7,
+      "icu_available": 2,
+      "oxygen_cylinders": 18,
+      "created_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 6,
+      "name": "Amravati District General Hospital",
+      "tier": "DH",
+      "state": "Maharashtra",
+      "district": "Amravati",
+      "address": "Irwin Chowk, Amravati, Maharashtra 444601",
+      "beds_total": 220,
+      "beds_available": 31,
+      "icu_available": 10,
+      "oxygen_cylinders": 95,
+      "created_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 7,
+      "name": "Achalpur Rural PHC",
+      "tier": "PHC",
+      "state": "Maharashtra",
+      "district": "Amravati",
+      "address": "Paratwada Road, Achalpur, Maharashtra 444806",
+      "beds_total": 10,
+      "beds_available": 2,
+      "icu_available": 0,
+      "oxygen_cylinders": 6,
+      "created_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 8,
+      "name": "Kanakapura Taluk Community Health Centre",
+      "tier": "CHC",
+      "state": "Karnataka",
+      "district": "Ramanagara",
+      "address": "Main Road, Kanakapura, Karnataka 562117",
+      "beds_total": 45,
+      "beds_available": 14,
+      "icu_available": 3,
+      "oxygen_cylinders": 26,
+      "created_at": "2026-09-29T19:17:32.310Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "viewer@healthgrid.gov.in",
+      "password_hash": "scrypt$2390ad9669113fb422e63803caf6de8b$8542e93c6f323d305a1293be92267debb089d9ad4f5e79f9d81fa9bf5d69a23f",
+      "role": "viewer",
+      "facility_id": null,
+      "created_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 2,
+      "email": "mo.junnar@healthgrid.gov.in",
+      "password_hash": "scrypt$5b604df47230c0b79b361a76a0e9f1ca$2f1370920f0219b5834557c73e34ac16892d819b8013872c44437ca712d1e74a",
+      "role": "manager",
+      "facility_id": 2,
+      "created_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 3,
+      "email": "ms.aundh@healthgrid.gov.in",
+      "password_hash": "scrypt$a3a8838d42f00ac111477359d848ac05$fec05a5b44d8e8945d2259d84874872db52fa4b7ba2a82fedc838e7469dc79e0",
+      "role": "manager",
+      "facility_id": 1,
+      "created_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 4,
+      "email": "nashik.civil@healthgrid.gov.in",
+      "password_hash": "scrypt$ab2c62fc211e5da2e61f83307bcfb738$2bc2a3fff31857ea6aadc7fc0354533784cf16b0c40cc17593fbd709c753c7af",
+      "role": "manager",
+      "facility_id": 4,
+      "created_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 5,
+      "email": "kulkarnichaitanya25092005@gmail.com",
+      "password_hash": "scrypt$6180d1cf6267ba73f6575bc13400ec65$0d6761f36f257b72fefde70f5e6f187d57cf1e5aed9b33ea9f4c425ecd007132",
+      "role": "viewer",
+      "facility_id": null,
+      "created_at": "2026-09-29T19:29:42.562Z"
+    }
+  ],
+  "inventory": [
+    {
+      "id": 1,
+      "facility_id": 1,
+      "paracetamol_500mg": 9500,
+      "iv_fluids_500ml": 4200,
+      "ors_packets": 3200,
+      "amoxicillin_500mg": 6400,
+      "oxygen_cylinders": 160,
+      "antivenom_vials": 85,
+      "updated_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 2,
+      "facility_id": 2,
+      "paracetamol_500mg": 820,
+      "iv_fluids_500ml": 140,
+      "ors_packets": 450,
+      "amoxicillin_500mg": 520,
+      "oxygen_cylinders": 8,
+      "antivenom_vials": 4,
+      "updated_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 3,
+      "facility_id": 3,
+      "paracetamol_500mg": 3800,
+      "iv_fluids_500ml": 1650,
+      "ors_packets": 1800,
+      "amoxicillin_500mg": 2900,
+      "oxygen_cylinders": 65,
+      "antivenom_vials": 32,
+      "updated_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 4,
+      "facility_id": 4,
+      "paracetamol_500mg": 6200,
+      "iv_fluids_500ml": 2800,
+      "ors_packets": 2100,
+      "amoxicillin_500mg": 4100,
+      "oxygen_cylinders": 130,
+      "antivenom_vials": 48,
+      "updated_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 5,
+      "facility_id": 5,
+      "paracetamol_500mg": 1400,
+      "iv_fluids_500ml": 480,
+      "ors_packets": 950,
+      "amoxicillin_500mg": 880,
+      "oxygen_cylinders": 18,
+      "antivenom_vials": 12,
+      "updated_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 6,
+      "facility_id": 6,
+      "paracetamol_500mg": 5400,
+      "iv_fluids_500ml": 2200,
+      "ors_packets": 1750,
+      "amoxicillin_500mg": 3600,
+      "oxygen_cylinders": 95,
+      "antivenom_vials": 38,
+      "updated_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 7,
+      "facility_id": 7,
+      "paracetamol_500mg": 650,
+      "iv_fluids_500ml": 180,
+      "ors_packets": 320,
+      "amoxicillin_500mg": 410,
+      "oxygen_cylinders": 6,
+      "antivenom_vials": 3,
+      "updated_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 8,
+      "facility_id": 8,
+      "paracetamol_500mg": 2100,
+      "iv_fluids_500ml": 890,
+      "ors_packets": 1100,
+      "amoxicillin_500mg": 1450,
+      "oxygen_cylinders": 26,
+      "antivenom_vials": 18,
+      "updated_at": "2026-09-29T19:17:32.310Z"
+    }
+  ],
+  "personnel": [
+    {
+      "id": 1,
+      "facility_id": 1,
+      "doctors": 42,
+      "nurses": 118,
+      "anm_workers": 24,
+      "pharmacists": 16,
+      "updated_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 2,
+      "facility_id": 2,
+      "doctors": 2,
+      "nurses": 4,
+      "anm_workers": 8,
+      "pharmacists": 1,
+      "updated_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 3,
+      "facility_id": 3,
+      "doctors": 18,
+      "nurses": 48,
+      "anm_workers": 12,
+      "pharmacists": 6,
+      "updated_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 4,
+      "facility_id": 4,
+      "doctors": 36,
+      "nurses": 92,
+      "anm_workers": 18,
+      "pharmacists": 12,
+      "updated_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 5,
+      "facility_id": 5,
+      "doctors": 6,
+      "nurses": 16,
+      "anm_workers": 10,
+      "pharmacists": 3,
+      "updated_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 6,
+      "facility_id": 6,
+      "doctors": 28,
+      "nurses": 78,
+      "anm_workers": 16,
+      "pharmacists": 9,
+      "updated_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 7,
+      "facility_id": 7,
+      "doctors": 2,
+      "nurses": 3,
+      "anm_workers": 6,
+      "pharmacists": 1,
+      "updated_at": "2026-09-29T19:17:32.310Z"
+    },
+    {
+      "id": 8,
+      "facility_id": 8,
+      "doctors": 8,
+      "nurses": 22,
+      "anm_workers": 14,
+      "pharmacists": 4,
+      "updated_at": "2026-09-29T19:17:32.310Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "c58ad42d68ad3e993624bab186e93e9e32f6caabafde922686aab2f83592449d",
+      "user_id": 5,
+      "expires_at": "2026-09-30T03:29:42.562Z"
+    },
+    {
+      "token": "2d23ef88b48da556b259e231709e90a9c33c0a4d739a555555f0c0fe10071df0",
+      "user_id": 5,
+      "expires_at": "2026-09-30T03:38:42.350Z"
+    },
+    {
+      "token": "8523fa4d9fc500a1e2427c6c662a096fc88626fe39d05e9f1004c77a90444c25",
+      "user_id": 2,
+      "expires_at": "2026-09-30T03:41:22.954Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "sim-1790710822197",
+      "facility_id": 2,
+      "facility_name": "Junnar Rural Primary Health Centre (PHC)",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "resource": "IV Fluids",
+      "severity": "CRITICAL",
+      "title": "IV Fluids: Acute Shortage Projected",
+      "message": "Burn rate peaked at 210 units/day. Depletion anticipated in <18 hours.",
+      "action_needed": "Acknowledge alert and execute automated cross-district transfer recommendation.",
+      "timestamp": "2026-09-29T19:40:22.197Z",
+      "acknowledged": false
+    },
+    {
+      "id": "sim-1790710803235",
+      "facility_id": 2,
+      "facility_name": "Junnar Rural Primary Health Centre (PHC)",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "resource": "IV Normal Saline",
+      "severity": "CRITICAL",
+      "title": "Outbreak Warning: IV Saline Run-Rate Exhaustion",
+      "message": "Diarrheal cluster reported in sub-centre villages. Run-rate projected <24h.",
+      "action_needed": "Acknowledge alert and execute automated cross-district transfer recommendation.",
+      "timestamp": "2026-09-29T19:40:03.235Z",
+      "acknowledged": false
+    },
+    {
+      "id": "sim-1790710799399",
+      "facility_id": 2,
+      "facility_name": "Junnar Rural Primary Health Centre (PHC)",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "resource": "IV Normal Saline",
+      "severity": "CRITICAL",
+      "title": "Outbreak Warning: IV Saline Run-Rate Exhaustion",
+      "message": "Diarrheal cluster reported in sub-centre villages. Run-rate projected <24h.",
+      "action_needed": "Acknowledge alert and execute automated cross-district transfer recommendation.",
+      "timestamp": "2026-09-29T19:39:59.399Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alt-1",
+      "facility_id": 2,
+      "facility_name": "Junnar Rural Primary Health Centre (PHC)",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "resource": "IV Fluids & ASV",
+      "severity": "CRITICAL",
+      "title": "Primary Health Centre Stock-out Run-rate Alert",
+      "message": "Acute gastroenteritis surge in sub-centre villages. IV Normal Saline remaining (140 bottles) projected to exhaust within 28 hours.",
+      "action_needed": "Approve automated cross-district transfer of 500 bottles from Aundh District Hospital (Pune).",
+      "timestamp": "2026-09-29T18:59:32.580Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alt-2",
+      "facility_id": 7,
+      "facility_name": "Achalpur Rural PHC",
+      "state": "Maharashtra",
+      "district": "Amravati",
+      "resource": "Anti-Snake Venom (ASV)",
+      "severity": "HIGH",
+      "title": "Emergency Antivenom Reserve Depleted Below 4 Vials",
+      "message": "Monsoon agricultural activity has increased bite emergency triage. Reserve is at critical safety baseline.",
+      "action_needed": "Reroute 15 vials from Amravati District General Hospital cold-chain storage.",
+      "timestamp": "2026-09-29T18:12:32.580Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alt-3",
+      "facility_id": 5,
+      "facility_name": "Trimbakeshwar Community Health Centre (CHC)",
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "resource": "Bed Occupancy & Oxygen",
+      "severity": "WATCH",
+      "title": "Pilgrimage Festival Admission Inflow Pressure",
+      "message": "23 of 30 beds active (77% occupancy). Inflow trending 28% above seasonal baseline.",
+      "action_needed": "Alert Nashik Civil Hospital for ambulance diverts if occupancy touches 90%.",
+      "timestamp": "2026-09-29T16:17:32.580Z",
+      "acknowledged": true
+    }
+  ],
+  "redistributions": [
+    {
+      "id": "DISP-2026-081",
+      "source_facility": "Aundh District Hospital",
+      "source_district": "Pune",
+      "target_facility": "Junnar Rural Primary Health Centre (PHC)",
+      "target_district": "Pune",
+      "resource": "IV Normal Saline 500ml",
+      "quantity": "500 bottles",
+      "transit_distance_km": 78,
+      "eta_hours": "1.8 hrs",
+      "urgency": "CRITICAL",
+      "status": "DISPATCHED",
+      "timestamp": "2026-09-29T18:57:32.580Z"
+    },
+    {
+      "id": "DISP-2026-079",
+      "source_facility": "Nashik Civil District Hospital",
+      "source_district": "Nashik",
+      "target_facility": "Trimbakeshwar Community Health Centre (CHC)",
+      "target_district": "Nashik",
+      "resource": "Medical Oxygen B-Cylinders",
+      "quantity": "12 cylinders",
+      "transit_distance_km": 29,
+      "eta_hours": "45 mins",
+      "urgency": "STANDARD",
+      "status": "DISPATCHED",
+      "timestamp": "2026-09-29T16:47:32.580Z"
+    },
+    {
+      "id": "DISP-2026-074",
+      "source_facility": "Amravati District General Hospital",
+      "source_district": "Amravati",
+      "target_facility": "Achalpur Rural PHC",
+      "target_district": "Amravati",
+      "resource": "Anti-Snake Venom (ASV) Vials",
+      "quantity": "20 vials",
+      "transit_distance_km": 52,
+      "eta_hours": "1.2 hrs",
+      "urgency": "URGENT",
+      "status": "DISPATCHED",
+      "timestamp": "2026-09-29T18:07:32.580Z"
+    }
+  ]
+}
