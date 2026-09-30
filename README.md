@@ -2,7 +2,10 @@
 
 > **A federated AI platform for national-scale health resource and supply chain management — providing real-time visibility into medicine stocks, bed availability, and medical personnel attendance across India's entire Primary Health Centre (PHC) and District Hospital network.**
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/chaitanya25-k/National-HealthGrid)
+[![Live Application](https://img.shields.io/badge/Live%20Application-Visit%20National%20HealthGrid-059669?style=for-the-badge&logo=render&logoColor=white)](https://national-healthgrid.onrender.com)
+[![Status](https://img.shields.io/badge/Status-Online%20%26%20Active-brightgreen?style=for-the-badge)](https://national-healthgrid.onrender.com)
+
+**🌐 Live Web Application**: [https://national-healthgrid.onrender.com](https://national-healthgrid.onrender.com)
 
 ---
 
@@ -96,21 +99,13 @@ The interface is built to deliver a clean, distraction-free command center exper
 
 ---
 
-## 4. Deploy & Publish Live (Cloud Deployment)
+## 4. Live Production Deployment
 
-You can host and publish this full-stack application online with a live public URL connected to this GitHub repository.
+The National HealthGrid platform is published and running live in production:
 
-### Option 1: 1-Click Deploy to Render (Recommended)
-1. Click the button below:
-   [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/chaitanya25-k/National-HealthGrid)
-2. Sign in with your GitHub account.
-3. Render reads `render.yaml` automatically, builds both backend and frontend, and provides a free live HTTPS URL (e.g. `https://national-healthgrid.onrender.com`).
-4. (Optional) Add your `GEMINI_API_KEY` under the Environment Variables tab.
-
-### Option 2: Deploy to Railway / Koyeb
-1. Go to [Railway.app](https://railway.app) or [Koyeb.com](https://www.koyeb.com).
-2. Select **"Deploy from GitHub repo"** and choose `chaitanya25-k/National-HealthGrid`.
-3. Set build command to `npm install && npm run build` and start command to `npm start` (or use the included `Dockerfile`).
+- 🌐 **Live Web Application**: [https://national-healthgrid.onrender.com](https://national-healthgrid.onrender.com)
+- **Hosting Infrastructure**: Cloud Web Service (Node.js 20 LTS + React 19 SPA)
+- **Continuous Deployment (CI/CD)**: Linked directly to the `main` branch of this repository. Every commit to `main` automatically rebuilds and publishes to the live environment.
 
 ---
 
